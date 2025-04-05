@@ -3,22 +3,22 @@ import {
   Receipt,
   PieChart,
   CreditCard,
-  Globe,
-  Zap,
+  LineChart,
+  Calculator,
 } from "lucide-react";
 
 // Stats Data
 export const statsData = [
   {
-    value: "50K+",
+    value: "3",
     label: "Active Users",
   },
   {
-    value: "$2B+",
+    value: "100+",
     label: "Transactions Tracked",
   },
   {
-    value: "99.9%",
+    value: "90%",
     label: "Uptime",
   },
   {
@@ -52,14 +52,14 @@ export const featuresData = [
     description: "Manage multiple accounts and credit cards in one place",
   },
   {
-    icon: <Globe className="h-8 w-8 text-blue-600" />,
-    title: "Multi-Currency",
-    description: "Support for multiple currencies with real-time conversion",
+    icon: <LineChart className="h-8 w-8 text-blue-600" />,
+    title: "Investment Portfolio",
+    description: "Get personalized investment recommendations and portfolio management",
   },
   {
-    icon: <Zap className="h-8 w-8 text-blue-600" />,
-    title: "Automated Insights",
-    description: "Get automated financial insights and recommendations",
+    icon: <Calculator className="h-8 w-8 text-blue-600" />,
+    title: "Income Tax Planning",
+    description: "Plan your taxes efficiently with AI-powered recommendations",
   },
 ];
 
@@ -88,24 +88,24 @@ export const howItWorksData = [
 // Testimonials Data
 export const testimonialsData = [
   {
-    name: "Sarah Johnson",
-    role: "Small Business Owner",
-    image: "https://randomuser.me/api/portraits/women/75.jpg",
+    name: "Tanishq Praveen",
+    role: "student",
+    image: "/tanishq.jpg",
     quote:
-      "Welth has transformed how I manage my business finances. The AI insights have helped me identify cost-saving opportunities I never knew existed.",
+      "I have used this product on the say of my friends and i really found it useful as it helped to manage my finances.",
   },
   {
-    name: "Michael Chen",
+    name: "Siddharth Pappani",
     role: "Freelancer",
-    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    image: "/sid.jpg",
     quote:
-      "The receipt scanning feature saves me hours each month. Now I can focus on my work instead of manual data entry and expense tracking.",
+      "As a freelancer, a lot of times I had to put my bills and earnings in my one place to track my financial goals and this app can help a lot at this place.",
   },
   {
-    name: "Emily Rodriguez",
-    role: "Financial Advisor",
-    image: "https://randomuser.me/api/portraits/women/74.jpg",
+    name: "Jishnu Phani",
+    role: " Student&Trader",
+    image: "/jish.jpg",
     quote:
-      "I recommend Welth to all my clients. The multi-currency support and detailed analytics make it perfect for international investors.",
+      "I recommend FinAssist.ai to all people to use as this can be a great tool to grab good investment oppotunities",
   },
 ];

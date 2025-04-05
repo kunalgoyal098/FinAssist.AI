@@ -7,16 +7,16 @@ import { Toaster } from "sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Welth",
+  title: "FinAssist.ai",
   description: "One stop Finance Platform",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children } ) {
   return (
     <ClerkProvider>
-      <html lang="en">
+      <html lang="en" suppressHydrationWarning={true}>
         <head>
-          <link rel="icon" href="/logo-sm.png" sizes="any" />
+          <link rel="icon" href="/logo-sm.png" sizes="36-x360" />
         </head>
         <body className={`${inter.className}`}>
           <Header />
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
 
           <footer className="bg-blue-50 py-12">
             <div className="container mx-auto px-4 text-center text-gray-600">
-              <p>Made with 💗 by RoadsideCoder</p>
+              <p>Made By Team Vadapav</p>
             </div>
           </footer>
         </body>
